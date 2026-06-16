@@ -1,0 +1,21 @@
+{
+  "timeZone": "America/Chicago",
+  "dependencies": {},
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.readonly",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/spreadsheets.readonly"
+  ],
+  "gmail": {
+    "name": "Add to Pipeline",
+    "logoUrl": "https://drive.usercontent.google.com/download?id=1rhrnPFmRKPkWpXMkak2OhZ8Y-pmZCD4B",
+    "contextualTriggers": [
+      {
+        "unconditional": {},
+        "onTriggerFunction": "buildAddOn"
+      }
+    ]
+  },
+  "runtimeVersion": "V8"
+}
